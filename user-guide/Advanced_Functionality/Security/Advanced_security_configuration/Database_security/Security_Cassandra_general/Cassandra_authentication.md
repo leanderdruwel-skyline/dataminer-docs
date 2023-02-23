@@ -33,7 +33,7 @@ We also recommend that you create a new superuser and disable the default *cassa
 
 1. Applying the principle of separation of privileges, we recommend that you also create a dedicated user for DataMiner:
 
-   `CREATE ROLE dataminer WITH PASSWORD '<STRONG PASSWORD>' AND LOGIN = true;`
+   `CREATE ROLE 'dataminer' WITH PASSWORD = '<STRONG PASSWORD>' AND LOGIN = true;`
 
 1. Set the new credentials in DataMiner Cube. For more information, see [Configuring the database settings in Cube](xref:Configuring_the_database_settings_in_Cube).
 
