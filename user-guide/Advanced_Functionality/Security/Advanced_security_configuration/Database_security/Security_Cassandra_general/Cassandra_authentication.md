@@ -25,7 +25,7 @@ We also recommend that you create a new superuser and disable the default *cassa
 
 1. Log in with the *cassandra* user and execute the following query:
 
-   `CREATE ROLE <new_super_user> WITH PASSWORD = "<STRONG PASSWORD>" AND SUPERUSER = true AND LOGIN = true;`
+   `CREATE ROLE '<new_super_user>' WITH PASSWORD = "<STRONG PASSWORD>" AND SUPERUSER = true AND LOGIN = true;`
 
 1. Switch to your *new_super_user* and execute the following query:
 
