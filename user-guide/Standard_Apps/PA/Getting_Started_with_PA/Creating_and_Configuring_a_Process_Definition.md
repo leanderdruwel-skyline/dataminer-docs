@@ -37,7 +37,7 @@ The process DOM definition needs to be part of the *process_automation* module I
 
    Keep this in mind:
 
-   - Always start with a *PA None Event* or *PA Timer Start Event*.
+   - Always start with a *PA None Start Event* or *PA Timer Start Event*.
 
    - Make sure all branches end with a *PA End Event*.
 
