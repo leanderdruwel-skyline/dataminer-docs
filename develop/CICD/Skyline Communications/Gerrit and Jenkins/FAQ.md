@@ -62,7 +62,7 @@ To start the development of a new protocol (version 1.0.0.1), perform the follow
 
 1. Create a new DataMiner protocol Visual Studio solution in the local repository folder.
 
-   1. Start Visual Studio and go to *File* > *New* > *DataMiner Protocol Solution*.
+   1. Start Visual Studio and go to *File* > *New* > *DataMiner Connector Solution*.
 
    1. Specify the protocol name.
 
